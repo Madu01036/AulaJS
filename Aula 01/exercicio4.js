@@ -1,4 +1,4 @@
-document.write(<h1>"Aula 01 - Exercício 04"</h1>)
+document.write("<h1>Aula 01 - Exercício 04</h1>")
 
 var base = prompt("Digite o valor da base do triângulo: ")
 var altura = prompt("Digite o valor da altura do triângulo: ")
