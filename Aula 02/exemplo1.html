@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h1 {
+            margin: 0px;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            background-color: cyan;
+        }
+
+        form {
+            border: 3px solid;
+            border-color: cornflowerblue;
+            width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        input[type=text] {
+            width: 100%;
+            padding: 5px;
+        }
+
+        input[type=button] {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Aula 02 - Formulários no JavaScript</h1>
+
+    <form>
+        <script src="exemplo1.js"></script>
+        <p>
+            Digite o 1° número: <br>
+            <input type="number" id="numero">
+        </p>
+
+        <p>
+            Digite o 2° número: <br>
+            <input type="number" id="numero2">
+        </p>
+
+
+        <p>
+            <input type="button" value="Somar dois números" onclick="somar2numeros()">
+        </p>
+
+        <p id="somar2numeros"></p>
+
+    </form>
+
+</body>
+
+</html>
