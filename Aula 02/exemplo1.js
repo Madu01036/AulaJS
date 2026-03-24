@@ -1,11 +1,11 @@
-function somar2numeros(){
+function somar2numeros() {
 
-let num1, num2, soma;
+    let num1, num2, soma;
 
-num1 = document.getElementById("num1").value;
-num2 = document.getElementById("num").value;
+    
+    num2 = document.getElementById("num2").value;
 
-soma = Number(num1) + Number(num2);
+    soma = Number(num1) + Number(num2);
 
-document.getElementById("resultado").innerHTML = "Olá!!!" + soma
+    document.getElementById("somar2numeros").innerHTML = "Olá!!! O valor da soma é " + soma;
 }
