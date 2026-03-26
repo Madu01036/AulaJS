@@ -18,5 +18,5 @@ document.write("A diferença entre os números é " + resultado + "<br>");
 resultado = Number(numero1) * Number(numero2);
 document.write("O produto é " + resultado + "<br>");
 
-resultado = Number(numero1) - Number(numero2);
-document.write("A divisão é" / resultado + "<br>");
+resultado = Number(numero1) / Number(numero2);
+document.write("A divisão é " + resultado + "<br>");
