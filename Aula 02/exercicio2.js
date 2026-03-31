@@ -1,5 +1,6 @@
-function exercicio2(){
-let fah, cel;
+function exercicio2() {
+    let fah = document.getElementById("fah").value;
+    let cel = ((Number(fah) - 32) * 5) / 9;
 
-cel = ((Number(Fahrenheit) - 32 ) * 5)/9;
+    document.getElementById("cel").innerHTML = fah + "°F é equivalente a " + cel + "°C";
 }
