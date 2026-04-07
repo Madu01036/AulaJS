@@ -7,5 +7,5 @@ function somar2numeros() {
 
     soma = Number(num1) + Number(num2);
 
-    document.getElementById("somar2numeros").innerHTML = "Olá!!! O valor da soma é " + soma;
+    document.getElementById("resultado").innerHTML = "Olá!!! O valor da soma é " + soma;
 }

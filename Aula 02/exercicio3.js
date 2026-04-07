@@ -5,6 +5,6 @@ function exercicio3() {
 
     let parcela = valor + (valor * (juros / 100) * dias);
 
-    document.getElementById("parcela").innerHTML =
+    document.getElementById("resultado").innerHTML =
         "O valor da parcela é R$ " + parcela;
 }

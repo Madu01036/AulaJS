@@ -3,5 +3,5 @@ function exercicio4(){
     let altura = document.getElementById("altura").value;
 
     let area = base * altura;
-    document.getElementById("area").innerHTML = "A área do triângulo é " + area;
+    document.getElementById("resultado").innerHTML = "A área do triângulo é " + area;
 }

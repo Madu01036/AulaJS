@@ -6,5 +6,5 @@ function exercicio6(){
     let desc = sub * 0.10;
     let total = sub - desc;
 
-    document.getElementById("sub").innerHTML = "O subtotal da compra é " + sub;
+    document.getElementById("resultado").innerHTML = "O subtotal da compra é " + sub + " o desconto é de R$" + desc + " e o total da compra é R$" + total;
 }
